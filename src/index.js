@@ -1,3 +1,5 @@
+import App from "./app.js"
 window.onload = () => {
-	alert("Welcome!");
-}
+	const main = document.querySelector("main");
+	new App(main).init();
+};

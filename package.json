@@ -10,11 +10,11 @@
   "keywords": [],
   "author": "Palash <bluerid1986@gmail.com>",
   "dependencies": {
-    "babel-preset-es2015": "^6.24.0",
-    "babelify": "^7.3.0",
+    "babel-preset-es2015": "^6.5.0",
+    "babelify": "^7.2.0",
     "browser-request": "^0.3.3",
-    "browserify": "^14.1.0",
+    "browserify": "^13.0.0",
     "http-server": "^0.9.0",
-    "tiny-emitter": "^1.1.0"
+    "tiny-emitter": "^1.0.2"
   }
 }

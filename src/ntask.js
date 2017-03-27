@@ -1,4 +1,4 @@
-import TimeEmitter from "tiny-emitter";
+import TinyEmitter from "tiny-emitter";
 import request from "browser-request";
 
 class NTask extends TinyEmitter {
