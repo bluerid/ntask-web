@@ -798,7 +798,7 @@ var Signup = function (_NTask) {
 					if (err || resp.status === 412) {
 						_this2.emit("error", err);
 					} else {
-						_this2.email("signup", data);
+						_this2.emit("signup", data);
 					}
 				});
 			});

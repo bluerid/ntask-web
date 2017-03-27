@@ -35,7 +35,7 @@ class Signup extends NTask{
 				if(err || resp.status === 412){
 					this.emit("error", err);
 				} else {
-					this.email("signup", data);
+					this.emit("signup", data);
 				}
 			});
 		});
